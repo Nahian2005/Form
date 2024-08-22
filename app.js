@@ -12,12 +12,24 @@ form.addEventListener("submit",formHandler)
 function formHandler(e){
 e.preventDefault();
 
-document.write("Your Name:"+name.value + "<br/>");
-document.write("Your Email:"+email.value + "<br/>");
-document.write("Your Password:"+password.value + "<br/>");
+var link= document.createElement("a");
+var text= document.createTextNode("Here! CLick ME!")
+link.appendChild(text);
+
+link.title="Here! CLick ME!"
+
+link.href="https://nahian2005.github.io/Nothing/";
 
 
-document.write("Thanks for filling this form!")
+link.style.textDecoration="none";
+link.style.fontSize="12rem";
+link.style.color="#fff";
+
+
+document.body.appendChild(link); 
+
+
+
 
 
 
@@ -27,4 +39,3 @@ document.write("Thanks for filling this form!")
 
 
 }
-
