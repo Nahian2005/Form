@@ -52,13 +52,15 @@ body {
   }
 
   button {
-    padding: 5px;
-    font: bold 0.6em sans-serif;
-    border: 2px solid #333;
+    padding: 9px;
+    font: bold 0.6em sans-serif #fff ;
+    border: 2px solid wheat;
     border-radius: 5px;
-    background: none;
+    background: #fff;
     cursor: pointer;
     transform: rotate(-1.5deg);
+    margin-left: 89px;
+    margin-top: 23px;
   }
   
   button:after {
